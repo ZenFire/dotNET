@@ -8,21 +8,22 @@ For more info on API2, see https://forums.zenfire.com/wiki/API2/FAQ.
 <A name="toc2-7" title="Build libzenfire .NET library (libzenfire.dll)" />
 ## Build libzenfire .NET library (libzenfire.dll)
 
+* Extract the 64 bit MD build of `1.9.42.23` to `C:\`, resulting in a path like `C:\libzenfire-1.9.42.23-windows-32bit-vc10-MD\` existing.
 * Open libzenfire.sln in Visual Studio 10.
 * Set build to Release, x64
 * Build!
 
-Other configurations and platforms will work later.
+Other configurations and platforms will work later.  More flexibility for working with varied versions of the C++ ZenFire API is also planned.
 
-<A name="toc1-16" title="Using" />
+<A name="toc1-17" title="Using" />
 # Using
 
 TBD.
 
-<A name="toc1-21" title="HOWTO" />
+<A name="toc1-22" title="HOWTO" />
 # HOWTO
 
-<A name="toc2-24" title="Create .md from .txt" />
+<A name="toc2-25" title="Create .md from .txt" />
 ## Create .md from .txt
 
   gitdown $1.txt

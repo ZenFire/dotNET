@@ -6,11 +6,12 @@ For more info on API2, see https://forums.zenfire.com/wiki/API2/FAQ.
 
 ## Build libzenfire .NET library (libzenfire.dll)
 
+* Extract the 64 bit MD build of `1.9.42.23` to `C:\`, resulting in a path like `C:\libzenfire-1.9.42.23-windows-32bit-vc10-MD\` existing.
 * Open libzenfire.sln in Visual Studio 10.
 * Set build to Release, x64
 * Build!
 
-Other configurations and platforms will work later.
+Other configurations and platforms will work later.  More flexibility for working with varied versions of the C++ ZenFire API is also planned.
 
 # Using
 
